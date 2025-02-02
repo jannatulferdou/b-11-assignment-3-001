@@ -11,11 +11,14 @@
 
     <!-- tailwind CSS -->
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/f6b63f911d.js" crossorigin="anonymous"></script>
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Sora:wght@100..800&display=swap"
         rel="stylesheet">
+        
 
     <style>
         .sora-font {
@@ -25,11 +28,27 @@
         .adlam-display-font {
             font-family: "ADLaM Display", serif;
         }
+        .gradient-box {
+   
+    
+    background: linear-gradient(to right,#F8CCFB, #ACD2FD);
+        }
+        .gradient{
+            background: linear-gradient(to right,#FFF9F4, #F9DF8A);
+
+        }
+       
         @media screen and (max-width:576px) {
             .display-none{
                 display: none;
             }
-            
+            .cute{
+                position: absolute;
+                height: 23rem;
+                left: 11rem;
+               
+            }
+
         }
     </style>
 </head>
@@ -293,7 +312,7 @@
               <div class="card card-side bg-base-100 shadow-xl lg:h-37 h-30 lg:w-60 w-49 mb-4">
                 <div class="bg-[#FFF9F4] w-25 mt-8 lg:h-22 h-18 rounded-xl lg:ml-5 ml-3">
                   <img
-                    src="c1-assets/dog-cartoon.png"
+                    src="c1-assets/fish-cartoon.png"
                     alt="dog" class="justify-self-center items-center lg:p-5 pt-4" />
                 </div>
                 <div class="card-body">
@@ -310,7 +329,7 @@
               <div class="card card-side bg-base-100 shadow-xl lg:h-37 h-30 lg:w-60 w-49 mb-4">
                 <div class="bg-[#FFF9F4] w-25 mt-8 lg:h-22 h-18 rounded-xl lg:ml-5 ml-3">
                   <img
-                    src="c1-assets/dog-cartoon.png"
+                    src="c1-assets/bird-cartoon.png"
                     alt="dog" class="justify-self-center items-center lg:p-5 pt-4" />
                 </div>
                 <div class="card-body">
@@ -327,7 +346,7 @@
               <div class="card card-side bg-base-100 shadow-xl lg:h-37 h-30 lg:w-60 w-49 mb-4">
                 <div class="bg-[#FFF9F4] w-25 mt-8 lg:h-22 h-18 rounded-xl lg:ml-5 ml-3">
                   <img
-                    src="c1-assets/dog-cartoon.png"
+                    src="c1-assets/rabbit-cartoon.png"
                     alt="dog" class="justify-self-center items-center lg:p-5 pt-4" />
                 </div>
                 <div class="card-body">
@@ -344,7 +363,7 @@
               <div class="card card-side bg-base-100 shadow-xl lg:h-37 h-30 lg:w-60 w-49 mb-4">
                 <div class="bg-[#FFF9F4] w-25 mt-8 lg:h-22 h-18 rounded-xl lg:ml-5 ml-3">
                   <img
-                    src="c1-assets/dog-cartoon.png"
+                    src="c1-assets/bird-cartoon.png"
                     alt="dog" class="justify-self-center items-center lg:p-5 pt-4" />
                 </div>
                 <div class="card-body">
@@ -361,7 +380,7 @@
               <div class="card card-side bg-base-100 shadow-xl lg:h-37 h-30 lg:w-60 w-49 mb-4">
                 <div class="bg-[#FFF9F4] w-25 mt-8 lg:h-22 h-18 rounded-xl lg:ml-5 ml-3">
                   <img
-                    src="c1-assets/dog-cartoon.png"
+                    src="c1-assets/pet-couch.png"
                     alt="dog" class="justify-self-center items-center lg:p-5 pt-4" />
                 </div>
                 <div class="card-body">
@@ -378,7 +397,7 @@
               <div class="card card-side bg-base-100 shadow-xl lg:h-37 h-30 lg:w-60 w-49 mb-4">
                 <div class="bg-[#FFF9F4] w-25 mt-8 lg:h-22 h-18 rounded-xl lg:ml-5 ml-3">
                   <img
-                    src="c1-assets/dog-cartoon.png"
+                    src="c1-assets/fish-cartoon.png"
                     alt="dog" class="justify-self-center items-center lg:p-5 pt-4" />
                 </div>
                 <div class="card-body">
@@ -395,7 +414,7 @@
               <div class="card card-side bg-base-100 shadow-xl lg:h-37 h-30 lg:w-60 w-49 mb-4">
                 <div class="bg-[#FFF9F4] w-25 mt-8 lg:h-22 h-18 rounded-xl lg:ml-5 ml-3">
                   <img
-                    src="c1-assets/dog-cartoon.png"
+                    src="c1-assets/pet-couch.png"
                     alt="dog" class="justify-self-center items-center lg:p-5 pt-4" />
                 </div>
                 <div class="card-body">
@@ -411,7 +430,7 @@
             <div class="card card-side bg-base-100 shadow-xl h-37 display-none">
                 <div class="bg-[#FFF9F4] w-25 mt-8 h-22 rounded-xl ml-5">
                   <img
-                    src="c1-assets/dog-cartoon.png"
+                    src="c1-assets/rabbit-cartoon.png"
                     alt="dog" class="justify-self-center items-center p-5" />
                 </div>
                 <div class="card-body">
@@ -430,7 +449,68 @@
         
 
     </section>
+    <!-- price section -->
+     <section class="sora-font mt-25">
+        <h3 class="adlam-display-font text-4xl font-bold mb-10 ml-10 lg:ml-0">Everyday low Price</h3>
+        <div class="lg:flex">
+            <div class="gradient-box flex rounded-xl mr-10 lg:w-170 w-100 h-100 ml-10 lg:ml-0">      
+                <div class="lg:mt-25 mt-5 lg:ml-17 ml-10">
+                    <h5 class="display-none pt-30 ">Under Price</h5>
+                    <h3 class="adlam-display-font font-semibold lg:text-3xl text-2xl lg:w-80 w-60">Pet Grooming Mitt</h3>
+                    <p class="text-white text-xl mb-4 display-none">(Easy Hair Removal)</p>
+                    <h2 class="lg:text-4xl text-2xl font-bold lg:text-black text-white">$7.99</h2>
+                </div>
+                <div>
+                    <img src="c1-assets/cute-dog-mid.png" alt="" class="cute">
+                </div>
+            </div>
+            <div class="flex gradient rounded-xl lg:w-125 w-100 h-100 ml-10 lg:ml-0">
+                <div class="mt-18 ml-13">
+                    <h3 class="adlam-display-font text-3xl font-semibold w-60 mb-4">T-Shirt for Dogs</h3>
+                    <h2 class="text-4xl font-bold text-yellow-400">$7.99</h2>
+                </div>
+                <div>
+                    <img src="c1-assets/cute-pet-small.png" alt="" class="cute">
+                </div>
+
+            </div>
+        </div>
+     </section>
+     <!-- news -->
+     <section>
+
+     </section>
 </main>
+    <footer class="footer bg-[#FFDC2680] text-base-content p-10 sora-font pt-80 pb-20 mt-70">
+        <div class="lg:ml-13 ml-2">
+            <div class="flex mb-4">
+                <img src="c1-assets/logo-footer.png" alt="">
+                <h4 class="text-3xl mt-3">Browse<span class="text-yellow-400">4</span>Pets</h4>
+            </div>
+            <p class="w-80 text-base">
+                Discover a world of treats, toys, and essentials handpicked for your furry friends
+            </p>
+        </div>
+        
+        <nav class="lg:mt-6">
+        
+          <a class="link link-hover text-xl">Find a pet</a>
+          <a class="link link-hover text-xl">Breeds</a>
+          <a class="link link-hover text-xl">Contact us</a>
+         
+        </nav>
+        <nav class="lg:mt-15">
+          <h6 class=" text-xl text-black">Follow Us</h6>
+          <div class="grid grid-flow-col gap-4">
+            <a><i class="fa-brands fa-facebook"></i></a>
+            <a><i class="fa-brands fa-instagram "></i></a>
+            <a><i class="fa-brands fa-linkedin"></i></a>
+            <a><i class="fa-brands fa-youtube"></i></a>
+        
+              
+          </div>
+        </nav>
+      </footer>
 
 </body>
 
